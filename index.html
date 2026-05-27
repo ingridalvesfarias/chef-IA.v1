@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef IA | Sua Cozinha Inteligente com IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <h1>Chef <span class="highlight">IA</span></h1>
+        <p class="subtitle">Sua cozinha inteligente com IA.</p>
+
+        <label for="ingredients">Ingredientes em casa:</label>
+        <textarea id="ingredients" placeholder="Ex: arroz, filé de frango, ovo..."></textarea>
+
+        <button id="generateBtn">GERAR RECEITA MÁGICA</button>
+
+        <div class="secondary-actions">
+            <button class="btn-secondary" id="clearBtn">Limpar</button>
+            <button class="btn-secondary" id="copyBtn">Copiar</button>
+        </div>
+
+        <div class="recipe-output">
+            <div id="recipeOutput">Última Receita Gerada:</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

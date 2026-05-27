@@ -1,0 +1,112 @@
+:root {
+    --bg-body: #0a0a0a;
+    --card-bg: #141414;
+    --blue-main: #00d4ff;
+    --text-white: #ffffff;
+    --text-gray: #a0a0a0;
+}
+
+body {
+    background-color: var(--bg-body);
+    color: var(--text-white);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 10px;
+}
+
+.card {
+    background: var(--card-bg);
+    width: 100%;
+    max-width: 450px;
+    padding: 2rem;
+    border-radius: 20px;
+    border: 1px solid #222;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.8rem;
+}
+
+.subtitle {
+    color: var(--text-gray);
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.highlight {
+    color: var(--blue-main);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: var(--text-gray);
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 12px;
+    color: white;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    background: var(--blue-main);
+    color: #000;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #00aacc;
+    box-shadow: 0 0 15px rgba(0, 212, 255, 0.4);
+}
+
+.secondary-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn-secondary {
+    background: #222;
+    color: white;
+    padding: 10px;
+    flex: 1;
+}
+
+.btn-secondary:hover {
+    background: #333;
+}
+
+.recipe-output {
+    margin-top: 20px;
+    padding: 15px;
+    background: #1a1a1a;
+    border-radius: 10px;
+    border: 1px solid #333;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--text-gray);
+    max-height: 300px;
+    overflow-y: auto;
+}
