@@ -1,4 +1,4 @@
-# 👨‍🍳 Chef IA
+# 👨‍🍳 Chef IA - seu Assistente Gastronômico com IA
 
 O **Chef IA** é uma aplicação web inteligente que utiliza Inteligência Artificial para sugerir receitas criativas com base nos ingredientes que você já tem disponíveis na sua geladeira ou despensa. Desenvolvido para tornar a vida na cozinha mais prática e reduzir o desperdício de alimentos.
 
